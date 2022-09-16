@@ -196,7 +196,10 @@ a{
 }
 
 .container__phone-tittle {
+  padding-top: 5rem;
   text-align: center;
+  color:white;
+  font-size: 3rem;
 }
 
 .container__phone-item {
@@ -205,9 +208,22 @@ a{
   background-color: white;
   border-radius: 1rem;
   margin: 1rem;
+  /* display: flex; */
 }
 
 .container__phone-box1 {
   display: flex;
   justify-content: center;
+}
+
+.phone__item-header{
+  font-size: 2.5rem;
+}
+
+.phone__item-photo{
+
+}
+
+.ratmet{
+  display: flex;
 }
