@@ -1,92 +1,91 @@
-a{
+a {
   text-decoration: none;
 }
 .header__navbar {
   /* để ra giữa */
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .header__navbar-list {
   /* bỏ dấu chấm ul */
-    list-style: none;
-   
+  list-style: none;
 }
 .header__navbar-item {
-    display: inline-block;
-    margin: 0 40px;
-   
+  display: inline-block;
+  margin: 0 40px;
 }
 
 .header__navbar-item-button {
-    font-size: 2rem;
-    background-color: transparent;
-    border: none;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
 }
-
-
 
 .header__navbar-item-button:hover {
-    color: #005baa;
-    cursor: pointer;
+  color: #005baa;
+  cursor: pointer;
 }
 .cart:hover {
-    color:#f68b1f;
+  color: #f68b1f;
 }
 .cart {
-    color:#f68b1f;
+  color: #f68b1f;
 }
 
 /* nut dropdown chỉnh ngôn ngữ */
 .dropbtn {
-    background-color: #eaeaea;
-    color: black;
-    padding: 7px 15px;
-    border-radius: 30px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .container__banner {
-    display: flex;
-    justify-content: center;
-  }
+  background-color: #eaeaea;
+  color: black;
+  padding: 7px 15px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: none;
+}
 
-  .container__banner2 {
-    display: flex;
-    justify-content: center;
-    margin: 10px auto;
-  
-  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container__banner {
+  display: flex;
+  justify-content: center;
+}
+
+.container__banner2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
 /* ?????????????????????? */
 .container__banner2-title {
   font-size: 3.5rem;
-  font-weight:bold;
+  font-weight: bold;
   color: #005baa;
   padding: 0 0 0 500px;
 }
@@ -98,41 +97,34 @@ a{
   text-decoration: none;
 }
 
-
-
-
-
-
 /* Slideshow container */
 .container__slideshow {
   /* gioi han 3 anh */
   max-width: 1000px;
-  margin: auto; 
+  margin: auto;
 }
 
-.slideshow__items{
+.slideshow__items {
   display: flex;
   /* justify-content: space-between; */
   /* width: 100%; */
-
 }
 
-.slideshow__items-1{
-  width:100%;
-  height:100%;
+.slideshow__items-1 {
+  width: 100%;
+  height: 100%;
   /* de cach ra  */
-  margin:auto 5px;
+  margin: auto 5px;
 }
 
-.slideshow__items-1 h1{
-  color:#005baa;
+.slideshow__items-1 h1 {
+  color: #005baa;
   line-height: 150%;
-
 }
-.slideshow__items-1 p{
-  color:#979da3;
+.slideshow__items-1 p {
+  color: #979da3;
   font-size: 1.1rem;
-} 
+}
 
 /* Caption text */
 /* .text {
@@ -156,7 +148,6 @@ a{
  
 } */
 
-
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;
@@ -179,32 +170,51 @@ a{
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+  .text {
+    font-size: 11px;
+  }
 }
 
 .container__phone {
   width: 100vw;
   height: 100%;
-  background-image: linear-gradient(175deg,#0167be, #69caf4);
+  background-image: linear-gradient(175deg, #0167be, #69caf4);
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
 
+.container1 {
+  position: relative;
+  max-width: 500px;
+  margin-right: 0;
+  padding-right: 0;
+}
+#Iphone {
+  position: relative;
+  top: -60px;
 }
 
 .container__phone-tittle {
   padding-top: 5rem;
   text-align: center;
-  color:white;
+  color: white;
   font-size: 3rem;
 }
 
 .container__phone-item {
-  width:25rem;
-  height:25rem;
+  width: 25rem;
+  height: 25rem;
   background-color: white;
   border-radius: 1rem;
   margin: 1rem;
@@ -216,14 +226,60 @@ a{
   justify-content: center;
 }
 
-.phone__item-header{
+.phone__item-header {
   font-size: 2.5rem;
 }
 
-.phone__item-photo{
+.phone__item-photo {
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+}
+
+.phone__box {
+  display: flex;
+}
+
+.phone__item-header {
+  font-weight: 700;
+  margin: 15px;
+  font-size: 18px;
+  color: #05579e;
+  line-height: 150%;
+}
+
+.phone__item-para {
+  font-size: 15px;
+  line-height: 28px;
+  margin: auto 10px;
+  color: #777777;
+}
+
+.container2__button {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 30px ;
+}
+
+.button-timhieu {
+  background-color: #f68b1f;
+  color: white;
+  width: 590px;
+  height: 50px;
+  border-radius: 30px;
+  border: #fff;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-flex;
+  justify-content: center; /* center the content horizontally */
+  align-items: center;
 
 }
 
-.ratmet{
-  display: flex;
+.hotline {
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+  position: fixed;
 }
