@@ -188,7 +188,7 @@ a {
 .container__phone {
   width: 100vw;
   height: 100%;
-  background-image: linear-gradient(175deg, #0167be, #69caf4); 
+  background-image: linear-gradient(175deg, #0167be, #69caf4);
   display: flex;
   justify-content: center;
   margin-top: 60px;
@@ -269,7 +269,7 @@ a {
   font-size: 30px;
   display: flex;
   justify-content: center;
-  padding: 30px ;
+  padding: 30px;
 }
 
 .button-timhieu {
@@ -284,7 +284,6 @@ a {
   display: inline-flex;
   justify-content: center; /* center the content horizontally */
   align-items: center;
-
 }
 
 .hotline {
@@ -293,4 +292,65 @@ a {
   cursor: pointer;
   position: fixed;
   z-index: 2;
+}
+
+/* css phần advantage eBacsi */
+.container__advantage {
+  text-align: center;
+  height: 700px;
+  width: 100%;
+  padding-top: 40px;
+  background-color: white;
+  position: relative;
+}
+.container__advantage-header {
+}
+.container__advantage-tittle {
+  font-size: 3rem;
+  color: #05579e;
+  font-weight: 500;
+}
+.container__advantage-tittle span {
+  font-weight: 600;
+}
+.container__advantage-para {
+  font-size: 1.6rem;
+  color: #72787e;
+  line-height: 130%;
+}
+.container__advantage-box {
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+.container__advantage-item {
+  margin: 10px;
+  margin-top: 20px;
+  display: block;
+  height: 300px;
+  width: 350px;
+  
+}
+.container__advantage-item-img {
+}
+.container__advantage-item-para {
+  font-size: 1.6rem;
+  color: #05579e;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 0;
+  position: relative;
+  top: -8%;
+}
+
+.container__advantage-item-uniqueOne {
+  position: relative;
+  top:14px;
+  right: 10px;
+}
+
+.container__advantage-item-uniqueOne .container__advantage-item-para {
+  position: relative;
+  top: 10px;
+  
 }
