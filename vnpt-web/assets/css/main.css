@@ -354,3 +354,40 @@ a {
   top: 10px;
   
 }
+
+.thongke{
+  margin-top:10rem;
+  background-image: url("../img/thongke_background.jpg");
+  /* kéo ảnh bg full width vs div */
+  background-size: 100% 100%;
+
+}
+
+.thongke_title{
+  text-align: center;
+  /* de cach 1 doan */
+  padding-top:2rem;
+  padding-bottom: 5rem;
+  font-size:2rem;
+  color:white;
+}
+
+.thongke_solieu{
+  /* thu nhỏ chiều rộng div */
+  width: 1200px;
+  /* căn giữa div */
+  margin:auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+
+.thongke_solieu_item_title1{
+  color:white;
+  font-size:7rem;
+}
+
+.thongke_solieu_item_title2{
+  color:white;
+}
