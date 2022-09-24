@@ -355,7 +355,7 @@ a {
   
 }
 
-.thongke{
+.container__thongke{
   margin-top:10rem;
   background-image: url("../img/thongke_background.jpg");
   /* kéo ảnh bg full width vs div */
@@ -391,3 +391,19 @@ a {
 .thongke_solieu_item_title2{
   color:white;
 }
+
+.container__video{
+  background-image: url("../img/video_background.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.download{
+  /* ? */
+  line-height: 5rem;
+}
+
+/* .tai_ung_dung{
+  padding:0;
+} */

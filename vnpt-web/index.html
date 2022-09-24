@@ -1,472 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="assets/css/base.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/font/fontawesome-free-6.2.0/css/all.min.css"
-    />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/font/fontawesome-free-6.2.0/css/all.min.css" />
 
 
-    
-  </head>
-  <body>
-    <div class="web">
-      <header class="header">
-        <nav class="header__navbar">
-          <ul class="header__navbar-list">
-            <li class="header__navbar-item">
-              <img src="assets/img/header_logo.png" alt="" />
-            </li>
-            <li class="header__navbar-item">
-              <button type="button" class="header__navbar-item-button">
-                GIỚI THIỆU
+
+</head>
+
+<body>
+  <div class="web">
+    <header class="header">
+      <nav class="header__navbar">
+        <ul class="header__navbar-list">
+          <li class="header__navbar-item">
+            <img src="assets/img/header_logo.png" alt="" />
+          </li>
+          <li class="header__navbar-item">
+            <button type="button" class="header__navbar-item-button">
+              GIỚI THIỆU
+            </button>
+          </li>
+          <li class="header__navbar-item">
+            <button type="button" class="header__navbar-item-button">
+              CÁC GÓI DỊCH VỤ Y TẾ
+            </button>
+          </li>
+          <li class="header__navbar-item">
+            <button type="button" class="header__navbar-item-button">
+              TIN TỨC
+            </button>
+          </li>
+          <li class="header__navbar-item">
+            <button type="button" class="header__navbar-item-button">
+              ĐĂNG KÍ NHẬN TƯ VẤN
+            </button>
+          </li>
+          <li class="header__navbar-item">
+            <button type="button" class="header__navbar-item-button cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+          </li>
+          <li class="header__navbar-item">
+            <div class="dropdown">
+              <button class="dropbtn">
+                <img src="assets/img/VNFlat.jpg" alt="" />
+                Vi
+                <i class="fa-solid fa-angle-down"></i>
               </button>
-            </li>
-            <li class="header__navbar-item">
-              <button type="button" class="header__navbar-item-button">
-                CÁC GÓI DỊCH VỤ Y TẾ
-              </button>
-            </li>
-            <li class="header__navbar-item">
-              <button type="button" class="header__navbar-item-button">
-                TIN TỨC
-              </button>
-            </li>
-            <li class="header__navbar-item">
-              <button type="button" class="header__navbar-item-button">
-                ĐĂNG KÍ NHẬN TƯ VẤN
-              </button>
-            </li>
-            <li class="header__navbar-item">
-              <button type="button" class="header__navbar-item-button cart">
-                <i class="fa-solid fa-cart-shopping"></i>
-              </button>
-            </li>
-            <li class="header__navbar-item">
-              <div class="dropdown">
-                <button class="dropbtn">
-                  <img src="assets/img/VNFlat.jpg" alt="" />
-                  Vi
-                  <i class="fa-solid fa-angle-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="#">ENG</a>
-                  <a href="#">FRE</a>
-                  <a href="#">LAOS</a>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div class="container">
-        <div class="container__banner">
-          <img src="assets/img/banner1.png" alt="" />
-        </div>
-        <div class="container__banner2">
-          <h1 class="container__banner2-title">SẢN PHẨM - DỊCH VỤ NỔI BẬT</h1>
-          <a href="">Xem thêm ></a>
-        </div>
-
-        <div class="container__slideshow">
-          <!-- anh 1 -->
-          <div class="mySlides fade">
-            <div class="slideshow__items">
-              <div class="slideshow__items-1">
-                <a href="https://www.facebook.com/" target="blank">
-                  <img src="assets/img/slider.jpg" style="width: 100%" />
-                  <h1>Gói chăm sóc sức khỏe doanh nghiệp 1</h1>
-                  <p>
-                    Theo quy định của Luật lao động, hàng năm, người sử dụng lao
-                    động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
-                    động; đối với người lao động làm nghề, công việc nặng
-                    nhọc,...
-                  </p>
-                </a>
-              </div>
-
-              <div class="slideshow__items-1">
-                <a href="https://www.facebook.com/" target="blank">
-                  <img src="assets/img/slider.jpg" style="width: 100%" />
-                  <h1>Gói chăm sóc sức khỏe doanh nghiệp 1</h1>
-                  <p>
-                    Theo quy định của Luật lao động, hàng năm, người sử dụng lao
-                    động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
-                    động; đối với người lao động làm nghề, công việc nặng
-                    nhọc,...
-                  </p>
-                </a>
-              </div>
-
-              <div class="slideshow__items-1">
-                <a href="https://www.facebook.com/" target="blank">
-                  <img src="assets/img/slider.jpg" style="width: 100%" />
-                  <h1>Gói chăm sóc sức khỏe doanh nghiệp 1</h1>
-                  <p>
-                    Theo quy định của Luật lao động, hàng năm, người sử dụng lao
-                    động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
-                    động; đối với người lao động làm nghề, công việc nặng
-                    nhọc,...
-                  </p>
-                </a>
+              <div class="dropdown-content">
+                <a href="#">ENG</a>
+                <a href="#">FRE</a>
+                <a href="#">LAOS</a>
               </div>
             </div>
-          </div>
-
-          <!-- anh 2 -->
-          <div class="mySlides fade">
-            <div class="slideshow__items">
-              <div class="slideshow__items-1">
-                <a href="https://www.facebook.com/" target="blank">
-                  <img src="assets/img/slider.jpg" style="width: 100%" />
-                  <h1>Gói chăm sóc sức khỏe doanh nghiệp 2</h1>
-                  <p>
-                    Theo quy định của Luật lao động, hàng năm, người sử dụng lao
-                    động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
-                    động; đối với người lao động làm nghề, công việc nặng
-                    nhọc,...
-                  </p>
-                </a>
-              </div>
-
-              <div class="slideshow__items-1">
-                <a href="https://www.facebook.com/" target="blank">
-                  <img src="assets/img/slider.jpg" style="width: 100%" />
-                  <h1>Gói chăm sóc sức khỏe doanh nghiệp 2</h1>
-                  <p>
-                    Theo quy định của Luật lao động, hàng năm, người sử dụng lao
-                    động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
-                    động; đối với người lao động làm nghề, công việc nặng
-                    nhọc,...
-                  </p>
-                </a>
-              </div>
-
-              <div class="slideshow__items-1">
-                <a href="https://www.facebook.com/" target="blank">
-                  <img src="assets/img/slider.jpg" style="width: 100%" />
-                  <h1>Gói chăm sóc sức khỏe doanh nghiệp 2</h1>
-                  <p>
-                    Theo quy định của Luật lao động, hàng năm, người sử dụng lao
-                    động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
-                    động; đối với người lao động làm nghề, công việc nặng
-                    nhọc,...
-                  </p>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- anh 3 -->
-          <div class="mySlides fade">
-            <div class="slideshow__items">
-              <div class="slideshow__items-1">
-                <a href="https://www.facebook.com/" target="blank">
-                  <img src="assets/img/slider.jpg" style="width: 100%" />
-                  <h1>Gói chăm sóc sức khỏe doanh nghiệp 3</h1>
-                  <p>
-                    Theo quy định của Luật lao động, hàng năm, người sử dụng lao
-                    động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
-                    động; đối với người lao động làm nghề, công việc nặng
-                    nhọc,...
-                  </p>
-                </a>
-              </div>
-
-              <div class="slideshow__items-1">
-                <a href="https://www.facebook.com/" target="blank">
-                  <img src="assets/img/slider.jpg" style="width: 100%" />
-                  <h1>Gói chăm sóc sức khỏe doanh nghiệp 3</h1>
-                  <p>
-                    Theo quy định của Luật lao động, hàng năm, người sử dụng lao
-                    động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
-                    động; đối với người lao động làm nghề, công việc nặng
-                    nhọc,...
-                  </p>
-                </a>
-              </div>
-
-              <div class="slideshow__items-1">
-                <a href="https://www.facebook.com/" target="blank">
-                  <img src="assets/img/slider.jpg" style="width: 100%" />
-                  <h1>Gói chăm sóc sức khỏe doanh nghiệp 3</h1>
-                  <p>
-                    Theo quy định của Luật lao động, hàng năm, người sử dụng lao
-                    động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
-                    động; đối với người lao động làm nghề, công việc nặng
-                    nhọc,...
-                  </p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 233">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
-
-        <div class="container__phone">
-          <div class="container1">
-            <img id="Iphone" src="assets/img/Iphone.png" alt="" />
-          </div>
-          <div class="container2">
-            <h1 class="container__phone-tittle">
-              VNPT eBacsi - Chăm sóc sức khỏe toàn diện mọi nơi mọi lúc
-            </h1>
-            <div class="container__phone-box1">
-              <div class="container__phone-item">
-                <div class="phone__box">
-                  <img
-                    class="phone__item-photo"
-                    src="assets/img/phone_photo1.jpg"
-                  />
-                  <h1 class="phone__item-header">Đăng kí khám online</h1>
-                </div>
-
-                <p class="phone__item-para">
-                  Không cần xếp hàng chờ lấy số, khám đúng giờ theo lịch cá nhân
-                </p>
-              </div>
-
-              <div class="container__phone-item">
-                <div class="phone__box">
-                  <img
-                    class="phone__item-photo"
-                    src="assets/img/phone_photo2.jpg"
-                  />
-                  <h1 class="phone__item-header">Hỏi đáp bác sĩ</h1>
-                </div>
-                <p class="phone__item-para">
-                  Gửi câu hỏi ngay trên ứng dụng và được các chuyên gia giải
-                  đáp, tư vấn trong thời gian sớm nhất
-                </p>
-              </div>
-
-              <div class="container__phone-item">
-                <div class="phone__box">
-                  <img
-                    class="phone__item-photo"
-                    src="assets/img/phone_photo3.jpg"
-                  />
-                  <h1 class="phone__item-header">
-                    Khám trực tuyến với bác sĩ mọi lúc, mọi nơi
-                  </h1>
-                </div>
-                <p class="phone__item-para">
-                  Trao đổi, nhận tư vấn trực tuyến với bác sĩ online qua hình
-                  thức gọi video trong thời gian linh hoạt.
-                </p>
-              </div>
-            </div>
-            <div class="container__phone-box1">
-              <div class="container__phone-item">
-                <div class="phone__box">
-                  <img
-                    class="phone__item-photo"
-                    src="assets/img/phone_photo4.jpg"
-                  />
-                  <h1 class="phone__item-header">
-                    Quản lý hồ sơ sức khỏe cho cả gia đình
-                  </h1>
-                </div>
-                <p class="phone__item-para">
-                  Dễ dàng tìm kiếm cơ sở y tế như phòng khám, bệnh viện, nhà
-                  thuốc ở quanh khu vực bạn
-                </p>
-              </div>
-
-              <div class="container__phone-item">
-                <div class="phone__box">
-                  <img
-                    class="phone__item-photo"
-                    src="assets/img/phone_photo5.jpg"
-                  />
-                  <h1 class="phone__item-header">
-                    Tìm kiếm cơ sở y tế ngay gần bạn
-                  </h1>
-                </div>
-                <p class="phone__item-para">
-                  Dễ dàng tìm kiếm cơ sở y tế như phòng khám, bệnh viện, nhà
-                  thuốc ở quanh khu vực bạn
-                </p>
-              </div>
-
-              <div class="container__phone-item">
-                <div class="phone__box">
-                  <img
-                    class="phone__item-photo"
-                    src="assets/img/phone_photo6.jpg"
-                  />
-                  <h1 class="phone__item-header">
-                    Cập nhật tin tức y tế chính thống
-                  </h1>
-                </div>
-                <p class="phone__item-para">
-                  Cung cấp những tin tức y tế chính thống mới nhất, cập nhật
-                  theo thời sự
-                </p>
-              </div>
-            </div>
-            <div class="container2__button">
-              <a href="" class="button-timhieu"> TÌM HIỂU MÔ HÌNH HOẠT ĐỘNG </a>
-            </div>
-          </div>
-          <div class="container__phone-backgound">
-            <img
-              src="assets/img/sickMan_background.png"
-              alt=""
-              class="container__phone-backgound1"
-            />
-          </div>
-        </div>
-
-        <div class="container__advantage">
-          <div class="container__advantage-header">
-            <h3 class="container__advantage-tittle">
-              <span>VNPT eBacsi</span>
-              - Giúp việc chăm sóc sức khỏe đơn giản và gần gũi hơn
-            </h3>
-            <p class="container__advantage-para">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-              laudantium, reiciendis eos expedita officia facere quis eius ipsa
-              nemo<br />
-              iste accusamus inventore nam recusandae, ea incidunt adipisci
-              doloribus corrupti tempore
-            </p>
-          </div>
-          <div class="container__advantage-box">
-            <div class="container__advantage-item">
-              <img
-                src="assets/img/advantage1.png"
-                alt=""
-                class="container__advantage-item-img"
-              />
-              <p class="container__advantage-item-para">
-                Đảm bảo giãn cách xã hội,<br />
-                tránh tiếp xúc gần
-              </p>
-            </div>
-            <div class="container__advantage-item">
-              <img
-                src="assets/img/advantage2.png"
-                alt=""
-                class="container__advantage-item-img"
-              />
-              <p class="container__advantage-item-para">
-                Tiết kiêm thời gian di chuyển,<br />
-                chi phí khám chữa bệnh
-              </p>
-            </div>
-            <div class="container__advantage-item">
-              <img
-                src="assets/img/advantage3.png"
-                alt=""
-                class="container__advantage-item-img"
-              />
-              <p class="container__advantage-item-para">
-                Khám đúng lịch hẹn không chờ đợi,<br />
-                thuận tiện sắp xếp thời gian
-              </p>
-            </div>
-          </div>
-          <div class="container__advantage-box">
-            <div class="container__advantage-item">
-              <img
-                src="assets/img/advantage4.png"
-                alt=""
-                class="container__advantage-item-img"
-              />
-              <p class="container__advantage-item-para">
-                Thăm khám dễ dàng qua cuộc gọi<br />
-                Video Call của bác sĩ bất kỳ ở đâu
-              </p>
-            </div>
-            <div class="container__advantage-item">
-              <img
-                src="assets/img/advantage5.png"
-                alt=""
-                class="container__advantage-item-img"
-              />
-              <p class="container__advantage-item-para">
-                Được tư vấn hầu hết các chuyên khoa;<br />
-                chăm sóc sức khỏe cho cả gia đình<br />ở mọi lứa tuổi
-              </p>
-            </div>
-            <div
-              class="container__advantage-item container__advantage-item-uniqueOne"
-            >
-              <img
-                src="assets/img/advantage6.png"
-                alt=""
-                class="container__advantage-item-img"
-              />
-              <p class="container__advantage-item-para">
-                Tối ưu hóa các quy trình<br />hoạt động
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-<div class="thongke">
-  <h1 class = "thongke_title">Mạng lưới y tế VNPT eBacsi - Đặt lịch khám với</h1>
-
-  <div class="thongke_solieu">
-  
-
-    <div class="thongke_solieu_item">
-      <h1 class="thongke_solieu_item_title1">36</h1>
-      <h2 class="thongke_solieu_item_title2">Bệnh viện</h2>
-    </div>
-
-    <div class="thongke_solieu_item">
-      <h1 class="thongke_solieu_item_title1">369</h1>
-      <h2 class="thongke_solieu_item_title2">Bác sĩ</h2>
-    </div>
-
-    <div class="thongke_solieu_item">
-      <h1 class="thongke_solieu_item_title1">986</h1>
-      <h2 class="thongke_solieu_item_title2">Nhân viên y tế</h2>
-    </div>
-  </div>
-
-</div>
-        
-       
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="container__banner">
+        <img src="assets/img/banner1.png" alt="" />
+      </div>
+      <div class="container__banner2">
+        <h1 class="container__banner2-title">SẢN PHẨM - DỊCH VỤ NỔI BẬT</h1>
+        <a href="">Xem thêm ></a>
       </div>
 
-      <footer class="footer">
-        <div class="hotline">
-          <img src="assets/img/hotline.png" alt="" />
+      <div class="container__slideshow">
+        <!-- anh 1 -->
+        <div class="mySlides fade">
+          <div class="slideshow__items">
+            <div class="slideshow__items-1">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="assets/img/slider.jpg" style="width: 100%" />
+                <h1>Gói chăm sóc sức khỏe doanh nghiệp 1</h1>
+                <p>
+                  Theo quy định của Luật lao động, hàng năm, người sử dụng lao
+                  động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
+                  động; đối với người lao động làm nghề, công việc nặng
+                  nhọc,...
+                </p>
+              </a>
+            </div>
+
+            <div class="slideshow__items-1">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="assets/img/slider.jpg" style="width: 100%" />
+                <h1>Gói chăm sóc sức khỏe doanh nghiệp 1</h1>
+                <p>
+                  Theo quy định của Luật lao động, hàng năm, người sử dụng lao
+                  động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
+                  động; đối với người lao động làm nghề, công việc nặng
+                  nhọc,...
+                </p>
+              </a>
+            </div>
+
+            <div class="slideshow__items-1">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="assets/img/slider.jpg" style="width: 100%" />
+                <h1>Gói chăm sóc sức khỏe doanh nghiệp 1</h1>
+                <p>
+                  Theo quy định của Luật lao động, hàng năm, người sử dụng lao
+                  động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
+                  động; đối với người lao động làm nghề, công việc nặng
+                  nhọc,...
+                </p>
+              </a>
+            </div>
+          </div>
         </div>
-      </footer>
-      <script src="app.js"></script>
+
+        <!-- anh 2 -->
+        <div class="mySlides fade">
+          <div class="slideshow__items">
+            <div class="slideshow__items-1">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="assets/img/slider.jpg" style="width: 100%" />
+                <h1>Gói chăm sóc sức khỏe doanh nghiệp 2</h1>
+                <p>
+                  Theo quy định của Luật lao động, hàng năm, người sử dụng lao
+                  động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
+                  động; đối với người lao động làm nghề, công việc nặng
+                  nhọc,...
+                </p>
+              </a>
+            </div>
+
+            <div class="slideshow__items-1">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="assets/img/slider.jpg" style="width: 100%" />
+                <h1>Gói chăm sóc sức khỏe doanh nghiệp 2</h1>
+                <p>
+                  Theo quy định của Luật lao động, hàng năm, người sử dụng lao
+                  động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
+                  động; đối với người lao động làm nghề, công việc nặng
+                  nhọc,...
+                </p>
+              </a>
+            </div>
+
+            <div class="slideshow__items-1">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="assets/img/slider.jpg" style="width: 100%" />
+                <h1>Gói chăm sóc sức khỏe doanh nghiệp 2</h1>
+                <p>
+                  Theo quy định của Luật lao động, hàng năm, người sử dụng lao
+                  động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
+                  động; đối với người lao động làm nghề, công việc nặng
+                  nhọc,...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- anh 3 -->
+        <div class="mySlides fade">
+          <div class="slideshow__items">
+            <div class="slideshow__items-1">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="assets/img/slider.jpg" style="width: 100%" />
+                <h1>Gói chăm sóc sức khỏe doanh nghiệp 3</h1>
+                <p>
+                  Theo quy định của Luật lao động, hàng năm, người sử dụng lao
+                  động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
+                  động; đối với người lao động làm nghề, công việc nặng
+                  nhọc,...
+                </p>
+              </a>
+            </div>
+
+            <div class="slideshow__items-1">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="assets/img/slider.jpg" style="width: 100%" />
+                <h1>Gói chăm sóc sức khỏe doanh nghiệp 3</h1>
+                <p>
+                  Theo quy định của Luật lao động, hàng năm, người sử dụng lao
+                  động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
+                  động; đối với người lao động làm nghề, công việc nặng
+                  nhọc,...
+                </p>
+              </a>
+            </div>
+
+            <div class="slideshow__items-1">
+              <a href="https://www.facebook.com/" target="blank">
+                <img src="assets/img/slider.jpg" style="width: 100%" />
+                <h1>Gói chăm sóc sức khỏe doanh nghiệp 3</h1>
+                <p>
+                  Theo quy định của Luật lao động, hàng năm, người sử dụng lao
+                  động phải tổ chức khám sức khỏe ít nhất 01 lần cho người lao
+                  động; đối với người lao động làm nghề, công việc nặng
+                  nhọc,...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 233">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <div class="container__phone">
+        <div class="container1">
+          <img id="Iphone" src="assets/img/Iphone.png" alt="" />
+        </div>
+        <div class="container2">
+          <h1 class="container__phone-tittle">
+            VNPT eBacsi - Chăm sóc sức khỏe toàn diện mọi nơi mọi lúc
+          </h1>
+          <div class="container__phone-box1">
+            <div class="container__phone-item">
+              <div class="phone__box">
+                <img class="phone__item-photo" src="assets/img/phone_photo1.jpg" />
+                <h1 class="phone__item-header">Đăng kí khám online</h1>
+              </div>
+
+              <p class="phone__item-para">
+                Không cần xếp hàng chờ lấy số, khám đúng giờ theo lịch cá nhân
+              </p>
+            </div>
+
+            <div class="container__phone-item">
+              <div class="phone__box">
+                <img class="phone__item-photo" src="assets/img/phone_photo2.jpg" />
+                <h1 class="phone__item-header">Hỏi đáp bác sĩ</h1>
+              </div>
+              <p class="phone__item-para">
+                Gửi câu hỏi ngay trên ứng dụng và được các chuyên gia giải
+                đáp, tư vấn trong thời gian sớm nhất
+              </p>
+            </div>
+
+            <div class="container__phone-item">
+              <div class="phone__box">
+                <img class="phone__item-photo" src="assets/img/phone_photo3.jpg" />
+                <h1 class="phone__item-header">
+                  Khám trực tuyến với bác sĩ mọi lúc, mọi nơi
+                </h1>
+              </div>
+              <p class="phone__item-para">
+                Trao đổi, nhận tư vấn trực tuyến với bác sĩ online qua hình
+                thức gọi video trong thời gian linh hoạt.
+              </p>
+            </div>
+          </div>
+          <div class="container__phone-box1">
+            <div class="container__phone-item">
+              <div class="phone__box">
+                <img class="phone__item-photo" src="assets/img/phone_photo4.jpg" />
+                <h1 class="phone__item-header">
+                  Quản lý hồ sơ sức khỏe cho cả gia đình
+                </h1>
+              </div>
+              <p class="phone__item-para">
+                Dễ dàng tìm kiếm cơ sở y tế như phòng khám, bệnh viện, nhà
+                thuốc ở quanh khu vực bạn
+              </p>
+            </div>
+
+            <div class="container__phone-item">
+              <div class="phone__box">
+                <img class="phone__item-photo" src="assets/img/phone_photo5.jpg" />
+                <h1 class="phone__item-header">
+                  Tìm kiếm cơ sở y tế ngay gần bạn
+                </h1>
+              </div>
+              <p class="phone__item-para">
+                Dễ dàng tìm kiếm cơ sở y tế như phòng khám, bệnh viện, nhà
+                thuốc ở quanh khu vực bạn
+              </p>
+            </div>
+
+            <div class="container__phone-item">
+              <div class="phone__box">
+                <img class="phone__item-photo" src="assets/img/phone_photo6.jpg" />
+                <h1 class="phone__item-header">
+                  Cập nhật tin tức y tế chính thống
+                </h1>
+              </div>
+              <p class="phone__item-para">
+                Cung cấp những tin tức y tế chính thống mới nhất, cập nhật
+                theo thời sự
+              </p>
+            </div>
+          </div>
+          <div class="container2__button">
+            <a href="" class="button-timhieu"> TÌM HIỂU MÔ HÌNH HOẠT ĐỘNG </a>
+          </div>
+        </div>
+        <div class="container__phone-backgound">
+          <img src="assets/img/sickMan_background.png" alt="" class="container__phone-backgound1" />
+        </div>
+      </div>
+
+      <div class="container__advantage">
+        <div class="container__advantage-header">
+          <h3 class="container__advantage-tittle">
+            <span>VNPT eBacsi</span>
+            - Giúp việc chăm sóc sức khỏe đơn giản và gần gũi hơn
+          </h3>
+          <p class="container__advantage-para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+            laudantium, reiciendis eos expedita officia facere quis eius ipsa
+            nemo<br />
+            iste accusamus inventore nam recusandae, ea incidunt adipisci
+            doloribus corrupti tempore
+          </p>
+        </div>
+        <div class="container__advantage-box">
+          <div class="container__advantage-item">
+            <img src="assets/img/advantage1.png" alt="" class="container__advantage-item-img" />
+            <p class="container__advantage-item-para">
+              Đảm bảo giãn cách xã hội,<br />
+              tránh tiếp xúc gần
+            </p>
+          </div>
+          <div class="container__advantage-item">
+            <img src="assets/img/advantage2.png" alt="" class="container__advantage-item-img" />
+            <p class="container__advantage-item-para">
+              Tiết kiêm thời gian di chuyển,<br />
+              chi phí khám chữa bệnh
+            </p>
+          </div>
+          <div class="container__advantage-item">
+            <img src="assets/img/advantage3.png" alt="" class="container__advantage-item-img" />
+            <p class="container__advantage-item-para">
+              Khám đúng lịch hẹn không chờ đợi,<br />
+              thuận tiện sắp xếp thời gian
+            </p>
+          </div>
+        </div>
+        <div class="container__advantage-box">
+          <div class="container__advantage-item">
+            <img src="assets/img/advantage4.png" alt="" class="container__advantage-item-img" />
+            <p class="container__advantage-item-para">
+              Thăm khám dễ dàng qua cuộc gọi<br />
+              Video Call của bác sĩ bất kỳ ở đâu
+            </p>
+          </div>
+          <div class="container__advantage-item">
+            <img src="assets/img/advantage5.png" alt="" class="container__advantage-item-img" />
+            <p class="container__advantage-item-para">
+              Được tư vấn hầu hết các chuyên khoa;<br />
+              chăm sóc sức khỏe cho cả gia đình<br />ở mọi lứa tuổi
+            </p>
+          </div>
+          <div class="container__advantage-item container__advantage-item-uniqueOne">
+            <img src="assets/img/advantage6.png" alt="" class="container__advantage-item-img" />
+            <p class="container__advantage-item-para">
+              Tối ưu hóa các quy trình<br />hoạt động
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container__thongke">
+        <h1 class="thongke_title">Mạng lưới y tế VNPT eBacsi - Đặt lịch khám với</h1>
+
+        <div class="thongke_solieu">
+
+
+          <div class="thongke_solieu_item">
+            <h1 class="thongke_solieu_item_title1">36</h1>
+            <h2 class="thongke_solieu_item_title2">Bệnh viện</h2>
+          </div>
+
+          <div class="thongke_solieu_item">
+            <h1 class="thongke_solieu_item_title1">369</h1>
+            <h2 class="thongke_solieu_item_title2">Bác sĩ</h2>
+          </div>
+
+          <div class="thongke_solieu_item">
+            <h1 class="thongke_solieu_item_title1">986</h1>
+            <h2 class="thongke_solieu_item_title2">Nhân viên y tế</h2>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="container__video">
+        <img class="video_img" src="assets/img/video.jpg" alt="" />
+
+        <div class="download">
+          <img class="video_img" src="assets/img/QR_code.jpg" alt="" />
+          <h1 class="tai_ung_dung">Tải ứng dụng ngay</h1>
+          <img class="video_img" src="assets/img/googlePlay.jpg" alt="" />
+          <br>
+          <img class="video_img" src="assets/img/appStore.jpg" alt="" />
+
+
+        </div>
+      </div>
     </div>
-  </body>
+
+    <footer class="footer">
+      <div class="hotline">
+        <img src="assets/img/hotline.png" alt="" />
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </div>
+</body>
+
 </html>
