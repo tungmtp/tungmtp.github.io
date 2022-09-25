@@ -392,6 +392,7 @@ a {
   color:white;
 }
 
+
 .container__video{
   background-image: url("../img/video_background.jpg");
   background-size: 100% 100%;
@@ -407,3 +408,26 @@ a {
 /* .tai_ung_dung{
   padding:0;
 } */
+
+
+/* btn return top page */
+#returnTopPage {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(12, 67, 245); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  font-size: 10px; /* Increase font size */
+  border-radius: 100%;
+}
+
+#returnTopPage:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
