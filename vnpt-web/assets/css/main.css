@@ -130,27 +130,6 @@ a {
   font-size: 1.1rem;
 }
 
-/* Caption text */
-/* .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-} */
-
-/* Number text (1/3 etc) */
-/* .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  margin:auto;
- 
-} */
 
 /* The dots/bullets/indicators */
 .dot {
@@ -304,7 +283,6 @@ a {
 /* css phần advantage eBacsi */
 .container__advantage {
   text-align: center;
-  height: 700px;
   width: 100%;
   padding-top: 40px;
   background-color: white;
@@ -328,7 +306,7 @@ a {
 .container__advantage-box {
   display: flex;
   justify-content: center;
-  z-index: 3;
+  z-index: 3; 
 }
 .container__advantage-item {
   margin: 10px;
@@ -412,9 +390,11 @@ a {
   line-height: 5rem;
 }
 
-/* .tai_ung_dung{
-  padding:0;
-} */
+.QR_code{
+  border-radius: 20px;
+  margin-top:1rem;
+
+}
 
 /* btn return top page */
 #returnTopPage {
@@ -509,4 +489,116 @@ a {
 .footer__container-connection-icon {
   color: white;
   margin-right: 10px;
+}
+
+
+@media only screen and (min-width:740px ) and (max-width:1023px){
+
+}
+
+/* dien thoai */
+@media only screen and (max-width:739px){
+
+  /* san pham dich vu */
+.container__banner2-title{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #005baa;
+  padding:unset;
+  text-align: center;
+  line-height: 3.5rem;
+  
+}
+
+/* xoa chu xem them */
+.container__banner2 a{
+  
+  display:none;
+}
+/* xoa dien thoai */
+.container__phone{
+  display: block;  
+  
+}
+/* khong bi chen */
+.container__phone-box1{
+  display: unset;
+
+}
+/* de lai 6 box theo hang doc */
+.container1{
+  display:none;
+}
+/* chinh title cham soc suc khoe toan dien */
+.container__phone-tittle {
+  
+  line-height: 3rem;
+  margin: 0 10px 60px 10px;
+}
+
+.container__phone-item {
+  width: unset;
+  height: 20rem;
+  margin-bottom: 8rem;
+ 
+}
+
+.button-timhieu{
+  display:none;
+}
+/* chinh title giup viec cham soc suc khoe */
+.container__advantage-tittle {
+  font-size: 4rem;
+  color: #05579e;
+  font-weight: 500;
+  line-height: 5rem;
+  margin:0 5%;
+}
+
+.container__advantage-para{
+  display: none;
+}
+/* chinh lai 6 box */
+.container__advantage-box {
+  display:unset;
+}
+
+/* chinhr lai dat lich kham voi */
+.thongke_title {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+/* chinh nut quay lai dau trang */
+#returnTopPage{
+  left:0px;
+  right:unset;
+}
+
+.thongke_solieu {
+  width:unset;
+  display:block;
+}
+/* chinh chieu cao cot so lieu */
+.thongke_solieu{
+  height: 50rem;
+}
+
+.thongke_solieu_item{
+margin-bottom: 10rem;
+}
+
+/* chinh phan video */
+.container__video {
+
+  text-align: center;
+  flex-direction: column; 
+}
+
+.video_img {
+  width:100%;
+}
+
+.footer{
+  display: none;
+}
 }
