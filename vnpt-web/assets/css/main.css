@@ -527,7 +527,53 @@ a {
   .header__navbar-item {
     display: none;
   }
+  
+  .navbar__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #0167be;
+    opacity: 0.4;
+    z-index: 1;
+    display: none;
+  }
 
+  .navbar__input:checked ~ h5 {
+    color: red;
+  }
+  .navbar__mobile{
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 1;
+
+  }
+  .navbar__mobile-list{
+    list-style: none;
+  }
+  .navbar__mobile-link{
+    display: block;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #0665b7;
+  }
+  .navbar__mobile-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.8rem;
+    color: #f6b024;
+  }
 
   /* san pham dich vu */
 .container__banner2-title{

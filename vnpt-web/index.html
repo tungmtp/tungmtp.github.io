@@ -31,9 +31,10 @@
           <li class="header__navbar-logo">
             <img class="header__navbar-logo-img" src="assets/img/header_logo.png" alt="" />
           </li>
-          <li class="header__navbar-bars">
+          <!-- navbar mobile -->
+          <label for="navbar-mobile-input" class="header__navbar-bars">
             <i class="fa-solid fa-bars"></i>
-          </li>
+          </label>
           <li class="header__navbar-item">
             <button type="button" class="header__navbar-item-button">
               GIỚI THIỆU
@@ -74,11 +75,47 @@
             </div>
           </li>
         </ul>
+        <label for="navbar-mobile-input"></label>
+        <input type="checkbox" name="navbar__input" id="navbar-mobile-input">
+        <h5>helolo</h5>
+        <label for="navbar-mobile-input" class="navbar__overlay"></label>
+        <div class="navbar__mobile">
+          <div class="navbar__mobile-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <ul class="navbar__mobile-list">
+            <li class="">
+              <a href="" class="navbar__mobile-link">
+                GIỚI THIỆU
+              </a>
+            </li>
+            <li class="">
+              <a href="" class="navbar__mobile-link">
+                CÁC GÓI DỊCH VỤ Y TẾ
+              </a>
+            </li>
+            <li class="">
+              <a href="" class="navbar__mobile-link">
+                TIN TỨC
+              </a>
+            </li>
+            <li class="">
+              <a href="" class="navbar__mobile-link">
+                ĐĂNG KÍ NHẬN TƯ VẤN
+              </a>
+            </li>
+            <li class="">
+              <a href="" class="navbar__mobile-link">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <div class="container">
       <div class="container__banner">
-        <img src="assets/img/banner1.png" alt="" class="container__banner1"/>
+        <img src="assets/img/banner1.png" alt="" class="container__banner1" />
       </div>
       <div class="container__banner2">
         <h1 class="container__banner2-title">SẢN PHẨM - DỊCH VỤ NỔI BẬT</h1>
@@ -450,7 +487,7 @@
         </div>
         <div class="footer__container-row2">
           <div class="footer__container-policy">
-           <h3>ĐIỀU KHOẢN VÀ CHÍNH SÁCH BẢO MẬT</h3> 
+            <h3>ĐIỀU KHOẢN VÀ CHÍNH SÁCH BẢO MẬT</h3>
             <p class="footer__container-policy-name">
               Điều khoản hoạt động
               <br>Quy định thanh toán
@@ -458,7 +495,7 @@
             </p>
             <img src="assets/img/dathongbao.png" alt="" class="footer__container-row2-logo">
           </div>
-          
+
           <div class="footer__container-connection">
             KẾT NỐI VỚI CHÚNG TÔI <br>
             <a href="" class="footer__container-connection-icon">
@@ -467,7 +504,7 @@
             <a href="" class="footer__container-connection-icon">
               <i class="fa-brands fa-instagram"></i>
             </a>
-            
+
           </div>
 
         </div>
