@@ -496,10 +496,10 @@ a {
 
 }
 
-/* dien thoai */
+/* RESPONSIVE DIEN THOAI */
 @media only screen and (max-width:739px){
 
-  /* san pham dich vu */
+  /* chinhr tiêu đề sản phẩm dịch vụ*/
 .container__banner2-title{
   font-size: 3rem;
   font-weight: bold;
@@ -515,6 +515,13 @@ a {
   
   display:none;
 }
+
+/* chỉnh ảnh slideshow chỉ hiện 2 cái mỗi lần */
+.slideshow__items-3{
+  display:none;
+}
+
+
 /* xoa dien thoai */
 .container__phone{
   display: block;  
@@ -558,12 +565,12 @@ a {
 .container__advantage-para{
   display: none;
 }
-/* chinh lai 6 box */
+/* chinh lai 6 box phan advantage */
 .container__advantage-box {
   display:unset;
 }
 
-/* chinhr lai dat lich kham voi */
+/* chinhr lai tiêu đề "đặt lịch khám với"*/
 .thongke_title {
   font-size: 3rem;
   line-height: 4rem;
@@ -587,7 +594,7 @@ a {
 margin-bottom: 10rem;
 }
 
-/* chinh phan video */
+/* chinh phần chứa video */
 .container__video {
 
   text-align: center;
@@ -597,6 +604,7 @@ margin-bottom: 10rem;
 .video_img {
   width:100%;
 }
+
 
 .footer{
   display: none;
