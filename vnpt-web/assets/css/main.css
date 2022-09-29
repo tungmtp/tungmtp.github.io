@@ -15,6 +15,14 @@ a {
   display: inline-block;
   margin: 0 3rem;
 }
+
+/* navbar mobile viet ở duoi con đây là ẩn nó đi khi là PC */
+.header__navbar-bars {
+  display: none;
+}
+.navbar__mobile {
+  display: none;
+}
 .header__navbar-item {
   display: inline-block;
   margin: 0 3rem;
@@ -516,6 +524,7 @@ a {
   .header__navbar-logo-img {
     width: 70%;
   }
+  /* cái icon 3 gạch */
   .header__navbar-bars {
     font-size: 2.8rem;
     color: #005baa;
@@ -524,28 +533,30 @@ a {
     right: 10px;
     top: 54px;
   }
+  /* ẩn thanh bar PC */
   .header__navbar-item {
     display: none;
   }
-  
+  /* lớp mờ */
   .navbar__overlay {
     position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #0167be;
-    opacity: 0.4;
+    background-color: rgba(1, 103, 190, 0.86);
     z-index: 1;
     display: none;
+    animation: fadeIn linear 0.3s;
   }
 
-  .navbar__input:checked ~ h5 {
-    color: red;
+  /* sử dụng checkbox */
+  .navbar__input:checked ~ .navbar__overlay, .navbar__mobile {
+    display: block;
   }
+  /* nav của điện thoại */
   .navbar__mobile{
-    display: none;
-    position: absolute;
+    position: fixed;
     top: 55px;
     right: 15px;
     bottom: 15px;
@@ -556,8 +567,14 @@ a {
     overflow-y: auto;
     transition: 0.3s;
     z-index: 1;
-
+    display: none;
+   
   }
+  /* kĩ thuật checkbox */
+  .navbar__input:checked ~ .navbar__mobile {
+    display: block;
+  }
+  /* bỏ dấu chấm của list */
   .navbar__mobile-list{
     list-style: none;
   }
@@ -567,6 +584,8 @@ a {
     font-size: 15px;
     color: #0665b7;
   }
+
+  /* dấu tắt */
   .navbar__mobile-close {
     position: absolute;
     top: 15px;
