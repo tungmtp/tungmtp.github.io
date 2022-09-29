@@ -11,6 +11,10 @@ a {
   /* bỏ dấu chấm ul */
   list-style: none;
 }
+.header__navbar-logo {
+  display: inline-block;
+  margin: 0 3rem;
+}
 .header__navbar-item {
   display: inline-block;
   margin: 0 3rem;
@@ -498,6 +502,32 @@ a {
 
 /* dien thoai */
 @media only screen and (max-width:739px){
+  /* navbar mobile */
+  .header__navbar {
+    justify-content: unset;
+  }
+  .header__navbar-list {
+    width: 100%;
+    padding: 0; 
+  }
+  .header__navbar-logo {
+    margin: 0 10px;
+  }
+  .header__navbar-logo-img {
+    width: 70%;
+  }
+  .header__navbar-bars {
+    font-size: 2.8rem;
+    color: #005baa;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 54px;
+  }
+  .header__navbar-item {
+    display: none;
+  }
+
 
   /* san pham dich vu */
 .container__banner2-title{
