@@ -4,3 +4,12 @@ html {
     font-family: '', sans-serif;
     box-sizing: border-box;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

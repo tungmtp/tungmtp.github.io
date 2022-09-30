@@ -11,6 +11,18 @@ a {
   /* bỏ dấu chấm ul */
   list-style: none;
 }
+.header__navbar-logo {
+  display: inline-block;
+  margin: 0 3rem;
+}
+
+/* navbar mobile viet ở duoi con đây là ẩn nó đi khi là PC */
+.header__navbar-bars {
+  display: none;
+}
+.navbar__mobile {
+  display: none;
+}
 .header__navbar-item {
   display: inline-block;
   margin: 0 3rem;
@@ -498,6 +510,89 @@ a {
 
 /* RESPONSIVE DIEN THOAI */
 @media only screen and (max-width:739px){
+  /* navbar mobile */
+  .header__navbar {
+    justify-content: unset;
+  }
+  .header__navbar-list {
+    width: 100%;
+    padding: 0; 
+  }
+  .header__navbar-logo {
+    margin: 0 10px;
+  }
+  .header__navbar-logo-img {
+    width: 70%;
+  }
+  /* cái icon 3 gạch */
+  .header__navbar-bars {
+    font-size: 2.8rem;
+    color: #005baa;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 54px;
+  }
+  /* ẩn thanh bar PC */
+  .header__navbar-item {
+    display: none;
+  }
+  /* lớp mờ */
+  .navbar__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(1, 103, 190, 0.86);
+    z-index: 1;
+    display: none;
+    animation: fadeIn linear 0.3s;
+  }
+
+  /* sử dụng checkbox */
+  .navbar__input:checked ~ .navbar__overlay, .navbar__mobile {
+    display: block;
+  }
+  /* nav của điện thoại */
+  .navbar__mobile{
+    position: fixed;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 1;
+    display: none;
+   
+  }
+  /* kĩ thuật checkbox */
+  .navbar__input:checked ~ .navbar__mobile {
+    display: block;
+  }
+  /* bỏ dấu chấm của list */
+  .navbar__mobile-list{
+    list-style: none;
+  }
+  .navbar__mobile-link{
+    display: block;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #0665b7;
+  }
+
+  /* dấu tắt */
+  .navbar__mobile-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.8rem;
+    color: #f6b024;
+  }
 
   /* chinhr tiêu đề sản phẩm dịch vụ*/
 .container__banner2-title{
@@ -611,6 +706,25 @@ margin-bottom: 10rem;
 
 
 .footer{
-  display: none;
+ flex-direction: column;
+ padding: 50px 20px 100px 20px;
+ text-align: center;
+}
+
+.footer__companyName {
+  margin-right: 0;
+  line-height: 3rem;
+}
+.footer__container-row1-item {
+  display: block;
+  margin-bottom: 3rem;
+  margin-right: unset;
+}
+.footer__container-row2 {
+  display: block;
+}
+.footer__container-connection {
+  
+  margin-left: unset;
 }
 }
