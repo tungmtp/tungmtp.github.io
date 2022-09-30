@@ -676,8 +676,7 @@ a {
 }
 /* chinh nut quay lai dau trang */
 #returnTopPage{
-  left:0px;
-  right:unset;
+  right:0px;
 }
 
 .thongke_solieu {
@@ -726,5 +725,8 @@ margin-bottom: 10rem;
 .footer__container-connection {
   
   margin-left: unset;
+}
+.hotline { 
+  display: none;
 }
 }
